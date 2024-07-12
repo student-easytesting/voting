@@ -17,6 +17,10 @@ const corsOptions = {
       "http://localhost:5175",
       "http://localhost:5174",
       "http://localhost:5173",
+      "https://blockchain.votingdapp.online",
+      "https://aadhar.votingdapp.online",
+      "https://voter.votingdapp.online",
+      "https://voting.votingdapp.online",
     ];
     const isAllowed = allowedOrigins.includes(origin);
     callback(null, isAllowed ? origin : false);
